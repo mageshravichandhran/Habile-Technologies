@@ -13,8 +13,6 @@ def solve(s1):
         temp=s1_arr[i]
         s1_arr[i]=s1_arr[min]
         s1_arr[min]=temp
-
-    for i in range(0,s1_arrsize):
         print(s1_arr[i]+" ",end=" ")
 
 solve("the domestic dog is a domesticated form of wolf")
